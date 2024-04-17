@@ -1,0 +1,76 @@
+
+[colors.bright]
+black = "#7c6f64"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#d4be98"
+yellow = "#d8a657"
+
+[colors.normal]
+black = "#3c3836"
+blue = "#7daea3"
+cyan = "#89b482"
+green = "#a9b665"
+magenta = "#d3869b"
+red = "#ea6962"
+white = "#d4be98"
+yellow = "#d8a657"
+
+[colors.primary]
+background = "#282828"
+foreground = "#d4be98"
+
+[cursor.style]
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 23
+normal = { family = "Fira Code Nerd Font", style = "Regular" }
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+
+[font.offset]
+x = -1
+y = 0
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "L"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "K"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "J"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "Escape"
+mode = "Vi|~Search"
+mods = "Alt"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Escape"
+mode = "~Search"
+mods = "Alt"
+
